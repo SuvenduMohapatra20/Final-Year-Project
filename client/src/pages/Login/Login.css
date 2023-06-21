@@ -1,0 +1,95 @@
+.loginDiv {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.headerSectionLogin {
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.formSectionLogin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFormSection {
+    width: 1113px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFormHeaderSection {
+    width: 515px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFormHeaderSection h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--textColor);
+}
+
+.loginFormHeaderSection p {
+    font-size: 15px;
+    color: var(--descColor);
+}
+
+.loginFormDataSection {
+    width: 717px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forgetPasswordTxt {
+    display: flex;
+    justify-content: flex-end;
+    width: 515px;
+}
+.forgetPasswordTxt p {
+    color: var(--buttonColor);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.loginButtonAccount {
+    width: 515px;
+    height: 50px;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dontAccountRegister {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dontAccountRegister p {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--textColor);
+}
+.dontAccountRegister p span {
+    color: var(--buttonColor);
+    font-weight: 600;
+    cursor: pointer;
+}

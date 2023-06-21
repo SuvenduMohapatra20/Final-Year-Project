@@ -1,0 +1,56 @@
+.customBtn {
+    color: var(--textColor);
+    background-color: var(--buttonColor);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.logoView {
+    margin-left: 20px;
+    color: var(--buttonColor) !important;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logoView span {
+    color: var(--textColor);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.customForm {
+    width: 515px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--placeHolderColor);
+    color: var(--textColor) !important;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: none;
+    border-color: none;
+    caret-color: var(--buttonColor);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: var(--placeHolderColor);
+    border: none;
+    /* Add any additional styles you want for the focused form element */
+}
+
+/* Add this CSS to your stylesheet */
+.form-control::placeholder {
+    color: var(--textColor);
+    /* Set the desired placeholder color */
+
+}
