@@ -49,8 +49,8 @@
 }
 
 .headerSectionImage {
-    width: 735px;
-    height: 426px;
+    width: 600px;
+    height: 380px;
 }
 
 .headerRightSection {
@@ -59,4 +59,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.courseMainSectionDiv {
+    margin-bottom: 20px;
+}
+
+.commitmentMainSectionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
