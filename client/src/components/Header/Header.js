@@ -16,7 +16,7 @@ function Header() {
   };
   
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg navbar-fixed-top sticky-top">
       <Link className="navbar-brand" to="/">
         <AiFillCode size={40} />
         <span>
