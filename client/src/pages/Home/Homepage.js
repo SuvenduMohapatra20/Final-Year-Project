@@ -8,8 +8,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
 //Sections
-import CourseSection from "../../sections/Course/CourseSection";
-import CommitmentSection from "../../sections/Comitment/CommitmentSection";
+
 
 function Homepage() {
   return (
@@ -33,12 +32,6 @@ function Homepage() {
             className="headerSectionImage"
           />
         </div>
-      </section>
-      <section className="container courseMainSectionDiv">
-        <CourseSection />
-      </section>
-      <section className="container commitmentMainSectionDiv">
-        <CommitmentSection />
       </section>
     </div>
   );
