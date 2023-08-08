@@ -9,11 +9,13 @@ import Footer from "../../components/Footer/Footer";
 
 //Sections
 import HeaderDataSection from "../../sections/HeaderData/HeaderDataSection";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 function Homepage() {
   return (
-    <div className="container-fluid homePageContainerDiv">
-      <Header />
+    <div className="homePageContainerDiv">
+      <Navbar />
 
       {/* Header Section  */}
 
